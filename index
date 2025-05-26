@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portal de Notícias</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+        }
+        header {
+            background-color: #004080;
+            color: white;
+            padding: 20px;
+            text-align: center;
+        }
+        nav {
+            background-color: #003366;
+            padding: 10px;
+            text-align: center;
+        }
+        nav a {
+            color: white;
+            margin: 0 15px;
+            text-decoration: none;
+        }
+        .container {
+            padding: 20px;
+        }
+        .news-article {
+            border-bottom: 1px solid #ccc;
+            margin-bottom: 20px;
+            padding-bottom: 10px;
+        }
+        .news-article h2 {
+            color: #004080;
+        }
+        footer {
+            background-color: #004080;
+            color: white;
+            text-align: center;
+            padding: 15px;
+            position: relative;
+            bottom: 0;
+            width: 100%;
+        }
+    </style>
+</head>
+<body>
+
+<header>
+    <h1>Portal de Notícias</h1>
+    <p>As principais notícias do dia em um só lugar</p>
+</header>
+
+<nav>
+    <a href="#">Início</a>
+    <a href="#">Política</a>
+    <a href="#">Economia</a>
+    <a href="#">Esportes</a>
+    <a href="#">Tecnologia</a>
+</nav>
+
+<div class="container">
+    <div class="news-article">
+        <h2>Notícia Principal 1</h2>
+        <p><strong>Publicado em:</strong> 26 de maio de 2025</p>
+        <p>Resumo da notícia principal número um. Aqui você encontra os detalhes mais importantes sobre o acontecimento.</p>
+    </div>
+
+    <div class="news-article">
+        <h2>Notícia Principal 2</h2>
+        <p><strong>Publicado em:</strong> 26 de maio de 2025</p>
+        <p>Resumo da notícia principal número dois. Aqui você encontra as informações mais relevantes do dia.</p>
+    </div>
+</div>
+
+<footer>
+    &copy; 2025 Portal de Notícias. Todos os direitos reservados.
+</footer>
+
+</body>
+</html>
